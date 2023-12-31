@@ -9,7 +9,9 @@ function App() {
     <center className="todo-container">
       <AppName></AppName>
       {/* row 1  */}
+      <div className="items-container">
       <ToDoAdd></ToDoAdd>
+      </div>
       {/* row 2 */}
       <div className="items-container">
       <ToDoItem1></ToDoItem1>

@@ -1,6 +1,6 @@
 function ToDoAdd() {
   return (
-    <div className="container text-center">
+    <div className="container ">
       <div className="row kg-row">
         <div className="col-6">
           <input type="text" placeholder="Enter ToDo here" />
@@ -9,7 +9,7 @@ function ToDoAdd() {
           <input type="date" />
         </div>
         <div className="col-2">
-          <button type="button" className="btn btn-success kg-button">
+          <button type="button" className="btn btn-success kg-button ">
             Add
           </button>
         </div>
